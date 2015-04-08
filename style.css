@@ -1,0 +1,25 @@
+/*
+Theme Name: Templete de muestra para Denumeris
+Theme URI: http://www.denumeris.com/
+Author: el Equipo de Denumeris
+Author URI: http://www.denumeris.com/
+Description: Templete generado exclusivamente para el uso interno de Denumeris
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: fotos, responsive
+Text Domain: denumeris 
+*/
+
+/*///////////////////////// Estilos generales del documento /////////////////////////*/
+/* Cambia el color de la selección dentro de los navegadores en los navegadores que lo soportan */
+::-moz-selection{
+	background: 				#00a8d8; 
+	color: 					#fff; 
+	text-shadow: 			none;
+}
+::selection{
+	background: 				#00a8d8; 
+	color: 					#fff; 
+	text-shadow: 			none;
+} 
