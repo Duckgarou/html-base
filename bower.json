@@ -1,4 +1,35 @@
+
 {
-    "name": "HtmlBaseAlphaMagic",
-    "version": "0.1"
+  "name": "HtmlBaseAlphaMagic",
+  "version": "0.2",
+  "description": "Base template for internal use",
+  "main": [
+    "index.html",
+    "images/icono.ico",
+    "images/icons/apple-touch-icon-57x57-precomposed.png",
+    "images/icons/apple-touch-icon-72x72-precomposed.png",
+    "images/icons/apple-touch-icon-114x114-precomposed.png",
+    "images/icons/apple-touch-icon-144x144-precomposed.png",
+    "js/custom.js",
+    "scss/base/_reset.scss",
+    "scss/base/_typography.scss",
+    "scss/components/_social-media-icons.scss",
+    "scss/helpers/_mixins.scss",
+    "scss/helpers/_variables.scss",
+    "scss/main.scss"
+  ],
+  "dependencies": {
+    "jquery": "~1.11",
+    "jquery.tools": "~1.2.7"
+  },
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "html starter template"
+  ],
+  "authors": [
+    "Duck Pedraza <duckh20@gmail.com>"
+  ],
+  "license": "MIT"
 }
