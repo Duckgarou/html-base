@@ -1,4 +1,25 @@
 {
-    "name": "HtmlBaseAlphaMagic",
-    "version": "0.1"
+  "name": "HtmlBaseAlphaMagic",
+  "version": "0.1"
+  "authors": [
+    "Duck Pedraza <duckh20@gmail.com>"
+  ],
+  "description": "Html base template",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0",
+  }
 }

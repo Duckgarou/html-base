@@ -1,54 +1,49 @@
 <!doctype html>
 <html><head>
 <meta charset="UTF-8">
-<title>Templete HTML5</title>
+<title>HTML5 base template</title>
 
-<!-- Meta tags de Facebook (Open Graph) -->
-<!-- Con esta etiqueta declaramos el título que queremos que contenga al darle share -->
-<meta property="og:title" content="Pixel Media Inc" />
-<!-- Con esta etiqueta mostramos una imagen al momento de dar share en facebook -->
+<!-- Meta tags for Facebook (Open Graph) -->
+<!-- With this tag we determine the title that will appear when we share this page on Facebook -->
+<meta property="og:title" content="Page title" />
+<!-- With this tag we determine the image that will appear when we share this page on Facebook -->
 <meta property="og:image" content="" />
-<!-- Con esta etiqueta mostramos el nombre de nuestro sitio web al momento de dar share en facebook -->
-<meta property="og:site_name" content="Pixel Media Inc" />
-<!-- Con esta etiqueta mostramos una descripción acerca de lo que trata nuestra página web al momento de dar share en facebook -->
-<meta property="og:description" content="En Pixel Media Inc estamos comprometidos a usar la tecnología para poder cumplir del mejor modo posible sus necesidades específicas de comunicación" />
+<!-- With this tag we determine the name of the site that will appear when we share this page on Facebook -->
 
-<!-- Corre el sitio en modo full-screen dentro de los móbiles que lo soportan. -->
+<meta property="og:site_name" content="Site Name" />
+<!-- With this tag we determine the description that will appear when we share this page on Facebook -->
+<meta property="og:description" content="Site Description" />
+
+<!-- Runs the site in fullscreen mode on devices that support it -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 
-<!-- Hace que la barra de status aparezca negra con texto blanco en iphones. -->
+<!-- Makes the status bar black on iphones -->
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-<!-- Deshabilita la detección automática de números de teléfono, es una cuestión de seguridad. -->
+<!-- Disables automatic phone number detection -->
 <meta name="format-detection" content="telephone=no">
 
-<!-- Pone el sitio en el tamaño que debe ser y evita que el usuario pueda hacer zoom en la página. -->
+<!-- Disables page zoom -->
 <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
      
-<!-- Iconos para el navegador (los íconos que aparecen en los tabs y en los bookmarks) -->
+<!-- Nav icons -->
 <link rel="shortcut icon" href="images/icono.ico">
 <link rel="bookmark" href="images/icono.ico">
     
-<!-- Iconos para ipad e iphone (íconos que aparecen en el home al momento de guardar la página) -->
-<!-- Ícono usado para iphone 3gs para atrás -->
+<!-- Ipad and iphone icons -->
 <link rel="apple-touch-icon" href="images/icons/apple-touch-icon-precomposed.png">
-<!-- Ícono usado en ipads de anterior generación -->
 <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72-precomposed.png">
-<!-- Ícono utilizado en iphone 4 para adelante -->
 <link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114-precomposed.png">
-<!-- Ícono utilizado para ipads de nueva generación -->
 <link rel="apple-touch-icon" sizes="144x144" href="images/icons/apple-touch-icon-144x144-precomposed.png">
     
-<!-- Hojas de estilo base -->
-<link rel="stylesheet" type="text/css" href="css/reset.css"><!-- Hoja de reset -->
-<link rel="stylesheet" type="text/css" href="style.css"><!-- Hoja personalizada -->
-<link rel="stylesheet" type="text/css" href="css/estilosResponsive.css"><!-- Hoja personalizada -->
+<!-- Main custom stylesheet -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
 
-<!-- Librería de jquery que contiene también la librería de jquery tools -->
-<script src="js/jqueryTools.js"></script>
+<!-- We start to add our js dependencies using bower -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="js/custom.js"></script>
 
-<!-- Código que sirve para que internet explorer rendereé correctamente las etiquetas de html5 -->
+<!-- Scripts for IE that let html5 render correctly -->
 <!--[if IE]>
 <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -56,11 +51,12 @@
 
 </head>
 
+
 <body>
 
-<header id="headerPrincipal">
-	<h1><a href="javascript:void(0);">Logo del sitio</a></h1>
-	<nav id="navPrincipal">
+<header id="main-header">
+	<h1><a href="javascript:void(0);">Site's Logo</a></h1>
+	<nav id="main-nav">
 		<ul>
 			<li><a href="javascript:void(0);">Item 1</a></li>
 			<li><a href="javascript:void(0);">Item 2</a></li>
@@ -68,23 +64,23 @@
 			<li><a href="javascript:void(0);">Item 4</a></li>
 			<li><a href="javascript:void(0);">Item 5</a></li>
 		</ul>
-	</nav><!-- #navPrincipal -->
-</header><!-- #headerPrincipal -->
+	</nav><!-- #main-nav -->
+</header><!-- #main-header -->
 
 <div id="wrapper">
 
-	<div id="contenido">
-		<h1>Primer título</h1>
-		<p>Contenido de un párrafo, nomás por el puro gusto de poner ñ.ñ</p>
-	</div><!-- #contenido -->
+	<div id="container">
+		<h1>First Title</h1>
+		<p>A paragraph content</p>
+	</div><!-- #container -->
 	
-	<aside id="asidePrincipal">
-	</aside><!-- #asidePrincipal -->
+	<aside id="main-aside">
+	</aside><!-- #main-aside -->
 	
 </div><!-- #wrapper -->
 
-<footer id="footerPrincipal">
-</footer><!-- #footerPrincipal -->
+<footer id="main-footer">
+</footer><!-- #main-footer -->
 
 </body>
 </html>
